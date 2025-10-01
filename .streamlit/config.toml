@@ -2,6 +2,6 @@
 primaryColor = "#FF6B6B"  # Affects buttons, headers
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F0F2F6"
-textColor = "#4CAF50"    # Main text
+textColor = "#fc0000ff"    # Main text
 
 

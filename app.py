@@ -2,6 +2,24 @@ import streamlit as st
 from calculation_methods import * 
  
 
+##### background CSS 
+
+background_css = """
+<style>
+.main {
+    background-image: url('https://www.jocooks.com/wp-content/uploads/2022/04/tacos-al-pastor-feature-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+</style>
+"""
+st.markdown(background_css, unsafe_allow_html=True)
+
+##########   BACKGROUND CSS 
+
+
+
 
 st.title("Emissions Calculating Application - by Lukasz Janicki")
 

@@ -16,6 +16,12 @@ html, body, [class*="css"]  {
     background: transparent !important;
 }
 
+
+h1 { font-size: 4rem !important; }
+h2 { font-size: 3rem !important; }
+p, .stText { font-size: 1.2rem !important; }
+</style>
+
 """
 
 st.markdown(background_css, unsafe_allow_html=True)

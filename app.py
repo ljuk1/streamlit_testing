@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("Emissions Calculating Application - by Lukasz 'Mamacita Seducer' Janicki")
+st.title("Emissions Calculating Application - by Lukasz Janicki")
 
 
 st.write("This dashboard will perform valuable calculations for my mamacita.")

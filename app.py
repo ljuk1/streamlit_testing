@@ -6,14 +6,18 @@ from calculation_methods import *
 
 background_css = """
 <style>
-.main {
+html, body, [class*="css"]  {
     background-image: url('https://www.jocooks.com/wp-content/uploads/2022/04/tacos-al-pastor-feature-1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: local;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
-</style>
+.stApp {
+    background: transparent !important;
+}
+
 """
+
 st.markdown(background_css, unsafe_allow_html=True)
 
 ##########   BACKGROUND CSS 
